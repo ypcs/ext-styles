@@ -1,0 +1,72 @@
+@degrona: #61bf1a;
+
+h1, h2, h3, h4, h5, h6 {
+    color: @degrona;
+    font-family: 'Section-Black', sans-serif;
+}
+
+#wrapper {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+h1#site-title {
+    color: @degrona;
+    float: none;
+    font-family: 'Section-Black', sans-serif;
+    font-size: 6em;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+    padding: 0;
+        
+    span {
+        a {
+            &:link, &:visited {
+                color: @degrona;
+            }
+        }
+    }
+}
+
+#site-description {
+    display: block;
+    float: none;
+    font-family: 'Section-Light', sans-serif;
+    color: black;
+    font-style: normal;
+    font-size: 1.8em;
+    width: 100%;
+//    font-weight: bold;
+}
+
+body {
+    background: #eee;
+    color: #000;
+}
+
+#access {
+    background: @degrona;
+    
+    .menu {
+        font-size: 1.5em;
+
+        .page_item, .current_page_item {
+            font-family: 'Section-Bold';
+        }
+
+        .page_item {
+            color: #fff;
+            
+                a {
+                    &:link, &:visited {
+                        color: #fff;
+                    }
+                }
+        }
+        
+        .current_page_item {
+        
+        }
+    }
+}
