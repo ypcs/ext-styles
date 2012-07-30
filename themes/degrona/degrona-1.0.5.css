@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #61bf1a;
+  font-family: 'Section-Black', sans-serif;
+}
+#wrapper {
+  padding-top: 0;
+  margin-top: 0;
+}
+#site-title {
+  color: #61bf1a;
+  float: none;
+  font-family: 'Section-Black', sans-serif;
+  font-size: 6em;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+  padding: 0;
+}
+#site-title span a:link,
+#site-title span a:visited {
+  color: #61bf1a;
+}
+#site-description {
+  display: block;
+  float: none;
+  font-family: 'Section-Light', sans-serif;
+  color: black;
+  font-style: normal;
+  font-size: 1.8em;
+  width: 100%;
+  padding-top: 0.5em;
+}
+body {
+  background: #eee;
+  color: #000;
+}
+body.home .entry-utility .comments-link,
+body.home .entry-utility .meta-sep,
+body.home .entry-utility .cat-links {
+  display: none;
+}
+#access {
+  background: #61bf1a;
+}
+#access a {
+  color: #fff;
+}
+#access .menu {
+  font-size: 1.5em;
+}
+#access .menu li {
+  font-family: 'Section-Bold';
+}
+#access .menu .page_item {
+  color: #fff;
+}
+#access .menu .page_item a:link,
+#access .menu .page_item a:visited {
+  color: #fff;
+}
